@@ -53,3 +53,16 @@ button:hover {
   color: #b8ff00;
   font-size: 18px;
 }
+
+.workout-card {
+  margin-bottom: 30px;
+}
+
+.secondary-button {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  margin-top: 10px;
+}
