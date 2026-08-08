@@ -3,20 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>ARISE Fitness</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="app">
-    <h1>ARISE</h1>
-    <p>Fitness • Discipline • Progress</p>
 
-    <button onclick="startWorkout()">Start Workout</button>
+  <main class="app">
+
+    <header>
+      <h1>ARISE</h1>
+      <p>Fitness • Discipline • Progress</p>
+    </header>
+
+    <section class="level-card">
+      <span>LEVEL</span>
+      <strong>1</strong>
+      <small>0 XP</small>
+    </section>
+
+    <section class="stats">
+
+      <div class="stat-card">
+        <span>🔥</span>
+        <h2>0</h2>
+        <p>Day Streak</p>
+      </div>
+
+      <div class="stat-card">
+        <span>⏱️</span>
+        <h2>0m</h2>
+        <p>Workout Time</p>
+      </div>
+
+    </section>
+
+    <section class="workout-card">
+
+      <h2>Today's Workout</h2>
+
+      <p class="empty-text">
+        No workout planned yet.
+      </p>
+
+      <button class="secondary-button">
+        + Create Workout
+      </button>
+
+    </section>
+
+    <button class="start-button" onclick="startWorkout()">
+      START WORKOUT
+    </button>
 
     <div id="message"></div>
-  </div>
+
+  </main>
 
   <script src="script.js"></script>
+
 </body>
 </html>
