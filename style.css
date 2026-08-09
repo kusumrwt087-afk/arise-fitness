@@ -66,3 +66,19 @@ button:hover {
 .start-button {
   margin-top: 10px;
 }
+
+#workout-list {
+  margin-top: 20px;
+}
+
+.exercise-card {
+  padding: 20px;
+  margin: 15px 0;
+  border: 1px solid #333;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.exercise-card h3 {
+  margin-top: 0;
+}
